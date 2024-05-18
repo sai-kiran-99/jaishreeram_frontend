@@ -1,0 +1,20 @@
+//This is used for inlined plaintext in code and we can get the output in the editor but its not dynamic and also its not interactible diraclty
+
+import React from 'react';
+import './EditableContent.css';
+//import {createRoot} from 'react-dom/client'
+//import Markdown from 'react-markdown'
+ 
+//const markdown = '# hi';
+//const name = '-hi';
+//const name;
+//{createRoot(document.body).render(<Markdown>{markdown}</Markdown>)}
+const EditableContent = () => {
+  return (
+    <div className="editable-content" contentEditable={true}>
+      
+    </div>
+  );
+};
+
+export default EditableContent;
